@@ -1,0 +1,135 @@
+body {
+  padding-top: 56px;
+  background-color: rgb(201, 101, 64);
+}
+
+.masthead {
+  height: 100vh;
+  background-image: url('Assets/top-view-iced-coffee-sugar-cubes.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.logo 
+{
+  height: 60px;
+  padding: 5px;
+}
+.logo1 
+{
+  height: 60px;
+  padding: 10px;
+}
+.logo2 
+{
+  height: 60px;
+  padding: 10px;
+}
+.logo3
+{
+  height: 60px;
+  padding: 10px;
+}
+.navbar-brand{
+  color: #ddd4d4;
+}
+.nav-link
+{
+  color: #ddd4d4;
+}
+.masthead h1 {
+  color: #020101;
+}
+
+.navbar {
+  background-color: #c75c39; 
+
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  color: #ddd4d4;
+
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+  color: #130b0b;
+}
+.foot {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* justify-content: space-evenly; */
+  justify-items: center;
+}
+
+.content1 {
+  display: grid;
+  grid-template-columns: auto;
+   background-color: #fdfcfc;
+  padding: 20px;
+}
+
+.part2 {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 25px;
+  background-color: #fdfcfc;
+}
+
+.part3 {
+  display: grid;
+  grid-template-columns: 1fr 20f;
+  padding: 20px;
+  background-color: #fdfcfc;
+}
+
+.section-heading {
+  color: #f8f6f5; 
+}
+.text-muted{
+  color: #020101;
+}
+.col{
+  max-width: 300px;
+  padding: 16px;
+  text-align: center;
+  overflow: hidden;
+  margin: 16px;
+}
+/* .col1{
+  max-width: 300px;
+  padding: 16px;
+  text-align: center;
+} */
+.col2{
+  max-width: 300px;
+  padding: 16px;
+  text-align: center;
+  overflow: hidden;
+  margin: 16px;
+}
+.col3{
+  max-width: 300px;
+  padding: 16px;
+  text-align: center;
+ overflow: hidden;
+ margin: 16px;
+}
+.bluecon
+{
+  height: 30px;
+  border-color: #ddd4d4;
+}
+.footer{
+  padding-bottom: 70px;
+  text-align: center;
+    height: 100vh;
+    background-color: rgb(206, 71, 51); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+  .text{
+    align-content: baseline;
+  }
